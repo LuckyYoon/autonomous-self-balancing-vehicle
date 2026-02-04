@@ -1,5 +1,9 @@
 # Bicycle
+
+
 ![](https://retrospec.com/cdn/shop/products/Harper_2021_MatteBlack_1_1c9801fe-1b78-4fa8-985b-8b2d53d37c98.jpg?v=1769781311&width=1800)
+
+
 ## 1. Overview
 The bicycle serves as the mechanical foundation for the **Autonomous Self-Balanced Bicycle** project. It provides the structural frame, wheelbase geometry, and mounting surfaces for all electrical, mechanical, and sensing subsystems.
 
@@ -73,10 +77,10 @@ The bicycle itself is passive and does not provide active sensing or actuation b
 
 | Modification | Description |
 |-------------|------------|
-| Removal of unnecessary components | Decorative, non-functional components, and brakes removed |
+| Removal of unnecessary components | Decorative components, freewheel, brakes, and cranks removed |
 | Added mounting interfaces | Custom clamps and brackets added |
 | Cable routing | Re-routed or newly added cable paths |
-| Weight redistribution | Electronics placed to minimize CG offset |
+| Weight redistribution | Electronics strategically placed to lower and minimize CG offset |
 
 
 ## 8. CAD & Mounting Interfaces
