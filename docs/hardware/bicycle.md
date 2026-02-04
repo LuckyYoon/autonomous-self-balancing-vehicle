@@ -126,4 +126,4 @@ The bicycle itself is passive and does not provide active sensing or actuation b
 
 ## 13. References
 - [Retrospec Harper Legacy Owner's Manual](https://cdn.accentuate.io/150506700830/1720641000618/bike_ownersmanual.pdf?v=1720641000618)
-- [Bicycle frame geometry reference guides](https://www.twowheeledwanderer.com/posts/bike-anatomy/)
+- [Bicycle Frame Geometry Reference Guides](https://www.twowheeledwanderer.com/posts/bike-anatomy/)
