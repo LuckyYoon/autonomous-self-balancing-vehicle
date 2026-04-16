@@ -1,4 +1,4 @@
-# Autonomous Self-Balancing Bicycle
+# Autonomous Self-Balancing Vehicle
 
 This project explores the design and implementation of an autonomous, self-balancing bicycle using a reaction wheel for stabilization. The system combines embedded control, power electronics, and robotic autonomy to achieve balance, perception, and navigation on a dynamically unstable platform.
 
