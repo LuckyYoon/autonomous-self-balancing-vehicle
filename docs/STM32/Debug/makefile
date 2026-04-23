@@ -64,8 +64,8 @@ all: main-build
 main-build: STM32.elf secondary-outputs
 
 # Tool invocations
-STM32.elf STM32.map: $(OBJS) $(USER_OBJS) C:\Users\justi\Downloads\STM32\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\justi\Downloads\STM32\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32.elf STM32.map: $(OBJS) $(USER_OBJS) C:\Users\justi\Documents\Olin\2026\ Spring\Autonomous\ Self-Balanced\ Bicycle\autonomous-self-balanced-bicycle\docs\STM32\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\justi\Documents\Olin\2026 Spring\Autonomous Self-Balanced Bicycle\autonomous-self-balanced-bicycle\docs\STM32\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
