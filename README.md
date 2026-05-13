@@ -1,9 +1,6 @@
 # Autonomous Self-Balancing Vehicle
 
-This project explores the design and implementation of an autonomous, self-balancing bicycle using a reaction wheel for stabilization. The system combines embedded control, power electronics, and robotic autonomy to achieve balance, perception, and navigation on a dynamically unstable platform.
+> [!NOTE]
+> We’re currently updating this repository with more up-to-date documentation. If you have any questions in the meantime, feel free to reach out at [jyoon@olin.edu](mailto:jyoon@olin.edu)
 
-A reaction wheel driven by a high-speed motor provides roll stabilization, while steering, drive, and braking actuators enable controlled motion. Low-level balancing is handled by an embedded controller, with higher-level perception and autonomy running on an onboard computer using ROS2.
-
-The autonomy stack integrates stereo vision, LiDAR, and inertial sensing to perform visual SLAM, localization, and obstacle-aware navigation. The project emphasizes tight integration between mechanical design, real-time control, and perception-driven decision making.
-
-This repository contains the hardware designs, embedded firmware, autonomy software, and documentation developed in the course of building and testing the system.
+Abstract— This paper presents a modular, open-source robotic platform designed for the study and development of two-wheeled single-tracked autonomous vehicles. Unlike proprietary or rigid systems, this platform utilizes a tubular frame architecture and 3D-printable components, allowing for nondestructive modification and rapid hardware iteration. We demonstrate the platform’s utility through a reaction wheelstabilized configuration, introducing a control methodology that actively modulates the system’s balance point in response to actuator torque. The integration of SLAM-based navigation with this decoupled stabilization approach provides a robust foundation for research in dynamically unstable systems.
